@@ -25,8 +25,6 @@ def create_character (name,strength,intelligence,charisma):
     if (strength+intelligence+charisma) != 7:
         return "The character should start with 7 points"
 
-
-    
     
 
 test = create_character ('john',4,0,4)
