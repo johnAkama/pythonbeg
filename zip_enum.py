@@ -34,8 +34,13 @@ new_list = list(zip(developers,ids))
 
 even_num = []
 
-for num in range(21):
+""" for num in range(21):
     if num%2 == 0:
        even_num.push(num)
     else:
-        print(f'{num} is not an even number \n')
+        print(f'{num} is not an even number \n') """
+
+
+numbers = [1, 2, 3, 4, 5]
+result = [(num, 'Even') if num % 2 == 0 else (num, 'Odd') for num in numbers]
+print(result)
