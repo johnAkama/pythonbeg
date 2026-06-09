@@ -1,0 +1,1 @@
+list_fruit = ["grape","orange","tomatoes","manago","pawpaw","lemon"]
