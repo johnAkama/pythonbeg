@@ -5,7 +5,10 @@ def number_pattern(n):
     if not isinstance(n, int):
         return "Argument must be an integer value."
 
-    return  list(range(1, n + 1))#" ".join(str(num) for num in range(1, n + 1))
+    return list(range(1, n, 1))  # " ".join(str(num) for num in range(1, n + 1))
 
 
-print(number_pattern(5))
+# print(number_pattern(5))
+
+""" for num in range(40, 0, -36):
+    print(num) """
