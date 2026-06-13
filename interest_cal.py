@@ -92,4 +92,33 @@ def duplicate_remover(dup_list):
     return new_list
 
 
-print(duplicate_remover(list_duplicate))
+# print(duplicate_remover(list_duplicate))
+
+
+# Practical Exercise 9: Tuples unpacking
+
+
+def tuple_unpacker(tup):
+    if len(tup) != 3:
+        return "The tuple has to have 3 elements"
+    else:
+        name, age, location = tup
+        return (name, age, location)
+
+
+# print(tuple_unpacker(("John Le Grand", 20, "Kumasi")))
+
+
+# Practical Exercse 10: List Comprehension
+
+
+def square(val):
+    return val**2
+
+
+list_val = [90, 23, 12, 40, 10]
+square_val = list(map(square, list_val))  # Using map function
+
+comp_square = [num**2 for num in list_val]  # List comprehension
+
+print(comp_square)
