@@ -92,9 +92,6 @@ def duplicate_remover(dup_list):
     return new_list
 
 
-# print(duplicate_remover(list_duplicate))
-
-
 # Practical Exercise 9: Tuples unpacking
 
 
