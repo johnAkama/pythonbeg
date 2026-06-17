@@ -96,4 +96,31 @@ def combine_list(list1, list2):
     return list1
 
 
-print(combine_list(list_source, list_target))
+# print(combine_list(list_source, list_target))
+
+# Practical exercise 18: Multiplicatin table generator
+
+
+def multiplication(num):
+    multipliers = [multi for multi in range(1, 11)]
+    for res in multipliers:
+        print(f"{num} * {res} = {num*res}")
+    # multiplication_result = [(num * result) for result in multipliers]
+    # return multiplication_result
+    return True
+
+    # print(multiplication(5))
+
+
+# Practical Project 19: MIni project
+expenses = [20, 30, 50, 30, 100, 500, 30, 40]
+
+
+def expenses_cal(param):
+    add_expense = input("Add an expense to your tracking list: ")
+    param.append(int(add_expense))
+
+    return f"Total expense is : {sum(param)} and the highest expense this year is:  {max(param)}"
+
+
+print(expenses_cal(expenses))
