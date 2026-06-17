@@ -7,5 +7,15 @@ pizza = {
 
 # print(pizza.items())
 
-for key, val in pizza.items():
+""" for key, val in pizza.items():
     print(val)
+ """
+products = {
+    "Laptop": 990,
+    "Smartphone": 600,
+    "Tablet": 250,
+    "Headphones": 70,
+}
+
+for product in enumerate(products.items()):
+    print(product)
