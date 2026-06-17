@@ -123,4 +123,4 @@ def expenses_cal(param):
     return f"Total expense is : {sum(param)} and the highest expense this year is:  {max(param)}"
 
 
-print(expenses_cal(expenses))
+#print(expenses_cal(expenses))
